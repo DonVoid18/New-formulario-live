@@ -1,0 +1,19 @@
+Colores utilizados para realizar el formulario
+-Gradiente de fondo:
+background-image: radial-gradient(circle at 36.94% 72.63%, #625036 0, #36322d 25%, #071522 50%, #000019 75%, #00000e 100%);
+
+-Color del formulario
+background-color: #071622;
+
+-Color del logo de facebook
+color: #047bf4;
+
+-Color del logo de google Chrome
+color: red;
+
+-Color del botón 
+background: #af0320;
+
+-Color del input
+background: #bec7ce49;
+

@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+    <link rel="stylesheet" href="style/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Open+Sans:wght@500&family=Roboto:wght@300&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container-main">
+        <div class="container-burbujas">
+            <div class="burbuja"></div>
+            <div class="burbuja"></div>
+            <div class="burbuja"></div>
+            <div class="burbuja"></div>
+        </div>
+        <div class="container-form">
+            <form action="" class="form-principal">
+                <div class="container-image">
+                    <img src="image/undraw_working_late_re_0c3y.svg" alt="Imagen del formulario">
+                </div>
+                <div class="container-information">
+                    <div class="container-info">
+                        <h1>CREAR UNA CUENTA</h1>
+                    </div>
+                    <div class="container-info">
+                        <div class="container-info-personal">
+                            <p>Nombre</p>
+                            <input type="text" placeholder="Tus nombres" required>
+                        </div>
+                        <div class="container-info-personal">
+                            <p>Apellidos</p>
+                            <input type="text" placeholder="Tus apellidos" required>
+                        </div>
+                    </div>
+                    <div class="container-info">
+                        <p>Correo Electrónico</p>
+                        <input type="email" placeholder="Tu correo electrónico" required>
+                    </div>
+                    <div class="container-info">
+                        <p>Contraseña</p>
+                        <input type="password" placeholder="Tu contraseña" required>
+                    </div>
+                    <div class="container-info">
+                        <p>Confirmar contraseña</p>
+                        <input type="password" placeholder="Tu contraseña" required>
+                    </div>
+                    <div class="container-info">
+                        <p>Género</p>
+                        <select name="" id="">
+                            <option value="">Masculino</option>
+                            <option value="">Femenino</option>
+                            <option value="">No quiero decirlo</option>
+                        </select>
+                    </div>
+                    <div class="container-check-box-private">
+                        <input type="checkbox" required>
+                        <span>Al seleccionar esta casilla acepta nuestro
+                            aviso de privacidad...
+                        </span>
+                    </div>
+                    <div class="container-button-send">
+                        <button type="submit">
+                            REGISTRAR
+                        </button>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
